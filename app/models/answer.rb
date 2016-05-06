@@ -1,0 +1,6 @@
+class Answer < ActiveRecord::Base
+
+  belongs_to :word
+
+  has_many :word_lessons, dependent: :destroy
+end
