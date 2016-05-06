@@ -96,5 +96,4 @@ ActiveRecord::Schema.define(version: 20160507100209) do
 
   add_index "words", ["category_id"], name: "index_words_on_category_id"
   add_index "words", ["name", "created_at"], name: "index_words_on_name_and_created_at"
-
 end

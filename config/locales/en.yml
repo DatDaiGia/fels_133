@@ -27,3 +27,16 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+  shared:
+    error_messages:
+      error_number: "error" 
+  users:
+    new: 
+      title: "Sign Up"
+      submit: "Create my account"
+      confirmation: "Confirmation"
+  activerecord:
+    controller:
+      user:
+        new: "new"
+        success: "Account created!"
