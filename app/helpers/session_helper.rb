@@ -15,5 +15,5 @@ module SessionHelper
   def log_out
     current_user = nil
     session.delete :user_id
-  end	
+  end 
 end

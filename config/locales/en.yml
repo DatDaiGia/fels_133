@@ -27,6 +27,7 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      logout: "Log out"
       profile: "Profiles"
       setting: "Settings"
       user: "Users"
@@ -39,6 +40,11 @@ en:
       title: "Sign Up"
       submit: "Create my account"
       confirmation: "Confirmation"
+    edit:
+      title: "Edit Profile"
+      submit: "Save changes"
+      change: "Change"
+      Confirmation: "Confirmation"
   session:
     new:
       title: "Log in"
@@ -49,6 +55,8 @@ en:
       user:
         new: "new"
         success: "Account created!"
+        update_success: "Profile updated"
+        danger: "Please Log in"
       session:
         success: "Login success"
         error: "Invalid email/password combination"

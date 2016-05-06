@@ -19,12 +19,16 @@ class User < ActiveRecord::Base
   has_secure_password
 
   def email_downcase
-    self.email = email.downcase		
+    self.email = email.downcase               
   end
 
   def User.digest string
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
       BCrypt::Engine.cost
     BCrypt::Password.create(string, cost: cost)
+  end
+
+  def correct_user? user
+    self == user
   end
 end
