@@ -27,6 +27,10 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      profile: "Profiles"
+      setting: "Settings"
+      user: "Users"
+      account: "Account"
   shared:
     error_messages:
       error_number: "error" 
@@ -35,8 +39,16 @@ en:
       title: "Sign Up"
       submit: "Create my account"
       confirmation: "Confirmation"
+  session:
+    new:
+      title: "Log in"
+      signup: "Create new user?"
+      newuser: "New user?"
   activerecord:
     controller:
       user:
         new: "new"
         success: "Account created!"
+      session:
+        success: "Login success"
+        error: "Invalid email/password combination"
